@@ -1,0 +1,28 @@
+.container {
+    max-width: 800px;
+  }
+  
+  .border {
+    border: 1px solid #ddd;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  h5 {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  p, ul {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  

@@ -1,0 +1,43 @@
+.shadow-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: relative;
+    transform: translateX(15%); /* Slightly shifted to the right */
+}
+
+.shadow-box h1 {
+    color: #333;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.shadow-box ul {
+    padding-left: 20px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.shadow-box p, .shadow-box ul li {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.container-fluid {
+    max-width: 100%; /* Ensures the container is full-width */
+}
+
+.shadow-box:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px;
+    bottom: 0;
+    left: -10px;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.05); /* Subtle, small shadow behind */
+    border-radius: 8px;
+}
